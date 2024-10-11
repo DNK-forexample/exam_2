@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./scripts/button/button.css">
+  <link rel="stylesheet" href="./scripts/calculator/calculator.css">
+  <link rel="stylesheet" href="./scripts/gallery/gallery.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="switch">
+    <button class="switch__button">Темапереключатель</button>
+    <h1 class="switch__title">Заголовок</h1>
+    <p class="switch__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+    <p class="switch__text"> Правилами дал которой щеке домах там своих предупреждал рыбными! Несколько.</p>
+    <a href="#" class="switch__link">Что-то там какая-то ссылка</a>
+  </div>
+  <div class="calculator">
+    <input type="number" id="firstNumber" class="calculator__input" placeholder="first number">
+    <!-- <div class="calculator__dropdown"> -->
+      <select name="select" id="select" class="calculator__select">
+        <!-- <option value="" selected disabled hidden></option> -->
+        <option value="Plus">Plus</option>
+        <option value="Minus">Minus</option>
+        <option value="Divide">Divide</option>
+        <option value="Multiply">Multiply</option>
+      </select>
+    <input type="number" id="secondNumber" class="calculator__input" placeholder="second number">
+    <button class="calculator__result">Calculate</button>
+    <div class="calculate__result_show"></div>
+  </div>
+  <div class="gallery">
+  </div>
+  <script src="./scripts/button/button.js"></script>
+  <script src="./scripts/calculator/calcuator.js"></script>
+  <script src="./scripts/gallery/gallery.js"></script>
+  <script src="./scripts/script.js"></script>
+</body>
+</html>
